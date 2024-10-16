@@ -1,0 +1,58 @@
+/* Custom Style Classes */
+			
+			.center_text {
+				text-align: center;
+				vertical-align: middle;
+			}
+			
+			.largest_text {
+				font-size: 60px;
+			}
+			
+			.favorite_color {
+				color: purple;
+			}
+			
+			body {
+				color: black;
+				font-size: 14px;
+				font-family: "Comfortaa", sans-serif;
+			}
+			
+			h1 {
+				color: pink;
+				font-size: 48px;
+				padding: 50px;
+				margin: 10px;
+			}
+			
+			h2 {
+				color: pink;
+				font-size: 36px;
+			}
+			
+			.color_box { 
+				background-color: #
+				
+			}
+			
+			.flex_menu { 
+				display: flex;
+				width: 50%;
+				flex-direction: row;
+				justify-content: center;
+				border: 1px solid black;
+				border-radius: 15px;
+				background: linear-gradient(pink, purple);
+			}
+			
+			.flex_menu_div {
+				justify-content: center;
+				padding: 10px; 
+				margin: 10px;
+				width: 60px;
+				border-radius: 15px;
+				border: 1px solid black;
+				background: linear-gradient(purple, pink);
+			}
+			
