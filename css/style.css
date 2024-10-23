@@ -38,9 +38,11 @@
 			
 			.flex_menu { 
 				display: flex;
-				width: 50%;
+				width: 100%;
 				flex-direction: row;
 				justify-content: center;
+				
+				max-width: 600px;
 				border: 1px solid black;
 				border-radius: 15px;
 				background: linear-gradient(pink, purple);
