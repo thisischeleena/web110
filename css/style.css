@@ -36,6 +36,10 @@
 				
 			}
 			
+			.current_page {
+				text-decoration: underline;	
+			}
+			
 			.flex_menu { 
 				display: flex;
 				width: 100%;
@@ -58,3 +62,17 @@
 				background: linear-gradient(purple, pink);
 			}
 			
+			.flex_menu_div:hover {
+				background: linear-gradient(pink, purple);
+			}
+				
+			
+			a { 
+				color: White;
+				text-decoration: none;
+			}
+			
+			a:hover { 
+				color: Black;
+				text-decoration: underline; 
+			}
