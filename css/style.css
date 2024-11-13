@@ -13,6 +13,14 @@
 				color: purple;
 			}
 			
+			.header { 
+				width: 500px;
+				margin: auto;
+				border: 2px solid purple;
+				border-radius: 15px;
+				background-color: none;
+			}
+							
 			body {
 				color: black;
 				font-size: 14px;
@@ -26,6 +34,40 @@
 				margin: 10px;
 			}
 			
+			h1:hover {
+				animation: pink_to_purple 5s infinite;
+			}
+			
+			@keyframes pink_to_purple {
+				0% {
+					color: pink;
+					font-size: 48px;
+					padding: 50px;
+					margin: 10px;
+				}
+			
+				25% {
+					color: lilac;
+					font-size: 48px;
+					padding: 50px;
+					margin: 10px;
+				}
+			
+				50% {
+					color: purple;
+					font-size: 48px;
+					padding: 50px;
+					margin: 10px;
+				}
+			
+				100% {
+					color: pink;
+					font-size: 48px;
+					padding: 50px;
+					margin: 10px;
+				}
+			}
+		
 			h2 {
 				color: pink;
 				font-size: 36px;
@@ -75,4 +117,92 @@
 			a:hover { 
 				color: Black;
 				text-decoration: underline; 
+			}
+			
+			.music-player {
+				display: block;
+				position: relative;
+				width: 400px;
+				height: 570px;
+				margin: auto;
+				margin-top: 6%;
+				border-radius: 0 0 10px 10px;
+				background: transparent linear-gradient(to bottom,rgba(10,11,31,0.9) 50%,rgb(10,11,31) 70%) repeat scroll 0 0;
+				box-shadow: 1px 10px 20px 5px #222;
+			}
+			.cover {
+				float: left;
+				width: 100%;
+				height: 66%;
+			}
+			.cover img {
+				display: block;
+				position: absolute;
+				top: 8%;
+				left: 14%;
+				width: 70%;
+				margin: auto;
+				text-align: center;
+			}
+			.song_title {
+				float: left;
+				width: 100%;
+			}
+			.lecteur {
+				width: 100%;
+				display: block;
+				height: auto;
+				position: relative;
+				float: left;
+			}
+			.player__button>button:focus {
+				outline: 0px dotted #999;
+			}
+            .player__container {
+				position: relative;
+				background-color: transparent;
+				min-width: auto !important;
+			}
+			.player__controls {
+				padding: 0 10%;
+				background: transparent !important;
+				display: block;
+				position: relative;
+			}
+			.player__controls div {
+				display: block;
+				float: left;
+				position: relative;
+			}
+			.player__controls .player__playpause-button {
+				position: absolute !important;
+				right: 8%;
+				bottom: 95%;
+				width: 40px;
+			}
+			.player__controls .player__playpause-button button {
+				display: block;
+				width: 40px;
+				height: 40px;
+				padding: 0;
+				border: 0;
+				font-family: FontAwesome;
+				font-size: 23px;
+				color: #5bbb95;
+				background: transparent;
+				padding: 0;
+				margin: 0;
+			}
+			.player__controls .player__volume-button button {
+				display: block;
+				width: 40px;
+				height: 40px;
+				padding: 0;
+				border: 0;
+				font-family: FontAwesome;
+				font-size: 20px;
+				color: #5bbb95;
+				background: transparent;
+				margin: 0;
+				padding: 0;
 			}
